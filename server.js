@@ -1,9 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const userModel = require("./userModel");
-
 const app = express();
-
 app.use(express.json());
 
 mongoose.connect(
